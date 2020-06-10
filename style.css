@@ -103,4 +103,7 @@ body {
         margin-top: -300px;
         z-index: -2;
     } */
+  p {
+    font-size: 20px !important;
+  }
 }
