@@ -103,6 +103,10 @@ body {
         margin-top: -300px;
         z-index: -2;
     } */
+  body {
+    overflow: hidden !important;
+  }
+
   p {
     font-size: 20px !important;
   }
