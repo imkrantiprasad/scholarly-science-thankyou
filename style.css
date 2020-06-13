@@ -6,6 +6,8 @@ body {
   overflow-y: hidden; */
   font-family: "Arimo", sans-serif !important;
   color: #151515;
+  width: 96%;
+  margin-left: 2%;
 }
 
 .circle-1 {
