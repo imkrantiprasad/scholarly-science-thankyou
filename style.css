@@ -119,47 +119,37 @@ body {
   body {
     background-color: white !important;
   }
-
-  .illus {
-    display: none;
-  }
-
-  .illus1 {
-    display: none;
-  }
-
-  .card1 {
-    height: 430px;
-    width: 80%;
-    background-color: white;
-    margin: 0;
-    margin-left: 10%;
-    margin-top: 30px;
-    box-shadow: none;
-    z-index: 0;
-    text-align: center;
-  }
 }
 
 @media screen and (max-width: 408px) {
 
-  /* .illus {
-        display: block;
-        height: 400px;
-        width: 100px;
-        margin-top: -120px;
-        margin-left: -20px;
-    }
+  /* .square {
+    display: none;
+  } */
 
-    .card1 {
-        margin-top: -300px;
-        z-index: -2;
-    } */
-  body {
-    /* overflow: hidden !important; */
+  .card1 {
+    margin-top: -50px !important;
+    /* box-shadow: none; */
   }
 
   p {
     font-size: 20px !important;
+  }
+
+  .circle-2 {
+    margin: 0;
+    margin-top: -260px;
+    margin-right: -10px;
+  }
+
+  .square {
+    height: 80px;
+    width: 70px;
+    margin-right: 30px;
+    margin-top: -100px;
+  }
+
+  .circle-5 {
+    display: none;
   }
 }
