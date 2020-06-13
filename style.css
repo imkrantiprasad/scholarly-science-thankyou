@@ -2,40 +2,56 @@
 
 body {
   background: rgb(235, 235, 235) !important;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
   font-family: "Arimo", sans-serif !important;
   color: #151515;
 }
 
-.illus {
-  width: 130%;
-  margin-left: -50px;
-  margin-top: -50px;
+.circle-1 {
+  height: 300px;
+  width: 300px;
+  background-color: #34a8eb;
+  border-radius: 50%;
   z-index: -1;
+  margin-left: -45px;
+  margin-top: -45px;
+
 }
 
-.illus1 {
-  width: 150%;
-  height: 700px;
-  margin-left: -50px;
-  margin-top: 100px;
+.circle-2 {
+  height: 40px;
+  width: 40px;
+  background-color: #34a8eb;
+  border-radius: 50%;
   z-index: -1;
+  float: right;
+  margin-top: -155px;
+  margin-right: 190px;
 }
 
-.illus2 {
-  display: none;
+.circle-3 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(74, 255, 225);
+  border-radius: 50%;
+  z-index: -1;
+  margin-left: -20px;
+  margin-top: -275px;
 }
 
 .card1 {
-  height: 430px;
+  padding: 30px;
+  padding-top: 0;
   width: 80%;
   background-color: white;
-  margin-top: -650px;
-  margin-left: 10%;
+  margin: auto !important;
+  margin-top: 70px !important;
+  /* margin-left: 10%; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  z-index: 0;
+  z-index: 999;
   text-align: center;
+  position: relative;
 }
 
 .line {
@@ -62,6 +78,41 @@ body {
 
 .card-content img {
   height: 150px;
+}
+
+.circle-4 {
+  height: 55px;
+  width: 55px;
+  background-color: #34a8eb;
+  border-radius: 50%;
+  z-index: 0;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+.square {
+  height: 160px;
+  width: 140px;
+  background: rgb(230, 251, 255);
+  background: linear-gradient(9deg, rgba(230, 251, 255, 1) 0%, rgba(110, 226, 250, 1) 100%);
+  z-index: -2 !important;
+  float: right;
+  margin-right: 85px;
+  margin-top: -165px;
+  opacity: 0.9;
+}
+
+.circle-5 {
+  height: 180px;
+  width: 180px;
+  background-color: #34a8eb;
+  border-radius: 50%;
+  z-index: -1;
+  /* margin-top: 30px;
+  margin-left: 60px; */
+  position: fixed;
+  margin-left: 1380px;
+  margin-top: -80px;
 }
 
 @media screen and (max-width: 992px) {
@@ -91,6 +142,7 @@ body {
 }
 
 @media screen and (max-width: 408px) {
+
   /* .illus {
         display: block;
         height: 400px;
@@ -104,7 +156,7 @@ body {
         z-index: -2;
     } */
   body {
-    overflow: hidden !important;
+    /* overflow: hidden !important; */
   }
 
   p {
