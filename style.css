@@ -6,8 +6,8 @@ body {
   overflow-y: hidden; */
   font-family: "Arimo", sans-serif !important;
   color: #151515;
-  width: 96%;
-  margin-left: 2%;
+  /* width: 96%;
+  margin-left: 2%; */
 }
 
 .circle-1 {
@@ -15,7 +15,7 @@ body {
   width: 300px;
   background-color: #34a8eb;
   border-radius: 50%;
-  z-index: -1;
+  z-index: 0;
   margin-left: -45px;
   margin-top: -45px;
 
@@ -26,10 +26,11 @@ body {
   width: 40px;
   background-color: #34a8eb;
   border-radius: 50%;
-  z-index: -1;
-  float: right;
-  margin-top: -155px;
-  margin-right: 190px;
+  z-index: 0;
+  margin: 0;
+  position: fixed;
+  /* float: right !important; */
+  margin-left: 350px !important;
 }
 
 .circle-3 {
